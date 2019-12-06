@@ -1,0 +1,22 @@
+{
+  "name": "@testingrequired/lazy",
+  "version": "1.0.0",
+  "description": "Wrap an object to make its methods lazily evaluate.",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "files": [
+    "src/isFunction.js"
+  ],
+  "scripts": {
+    "test": "jest",
+    "pack-preview": "npm pack && tar -xvzf *.tgz && rm -rf package *.tgz"
+  },
+  "keywords": [
+    "lazy"
+  ],
+  "author": "Kylee Tilley <kylee@testingrequired.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
+}
